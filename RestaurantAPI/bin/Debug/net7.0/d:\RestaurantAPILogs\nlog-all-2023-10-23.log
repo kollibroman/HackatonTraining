@@ -1,0 +1,1444 @@
+2023-10-23 21:40:42.1798||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-23 21:40:42.8803||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-10-23 21:40:43.0480||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:40:43.0684||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:40:43.1030||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (31ms). 
+2023-10-23 21:40:43.1038||DEBUG|Microsoft.EntityFrameworkCore.Migrations|Migrating using database 'RestaurantDb' on server '(localdb)\mssqllocaldb'. 
+2023-10-23 21:40:43.1101||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server '(localdb)\mssqllocaldb'. 
+2023-10-23 21:40:43.2086||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'RestaurantDb' on server '(localdb)\mssqllocaldb'. 
+2023-10-23 21:40:43.2133||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:40:43.2173||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server '(localdb)\mssqllocaldb'. 
+2023-10-23 21:40:43.2231||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (1ms). 
+2023-10-23 21:42:22.5102||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-23 21:42:23.0872||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-10-23 21:42:23.2589||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:42:23.2817||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:42:23.3093||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (24ms). 
+2023-10-23 21:42:23.3093||DEBUG|Microsoft.EntityFrameworkCore.Migrations|Migrating using database 'RestaurantDb' on server '(localhost)\mssqllocaldb'. 
+2023-10-23 21:42:23.3160||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server '(localhost)\mssqllocaldb'. 
+2023-10-23 21:42:23.4349||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'RestaurantDb' on server '(localhost)\mssqllocaldb'. 
+2023-10-23 21:42:23.4409||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:42:23.4450||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server '(localhost)\mssqllocaldb'. 
+2023-10-23 21:42:23.4510||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (1ms). 
+2023-10-23 21:43:29.3261||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-23 21:43:29.8810||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-10-23 21:43:30.0212||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:43:30.0394||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:43:30.0671||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (25ms). 
+2023-10-23 21:43:30.0680||DEBUG|Microsoft.EntityFrameworkCore.Migrations|Migrating using database 'RestaurantDb' on server 'localhost\mssqllocaldb'. 
+2023-10-23 21:43:30.0733||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost\mssqllocaldb'. 
+2023-10-23 21:43:44.7319||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'RestaurantDb' on server 'localhost\mssqllocaldb'. 
+2023-10-23 21:43:44.7469||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:43:44.7548||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server 'localhost\mssqllocaldb'. 
+2023-10-23 21:43:44.7661||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (2ms). 
+2023-10-23 21:44:07.9795||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-23 21:44:08.5371||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-10-23 21:44:08.6744||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:44:08.6923||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:44:08.7201||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (25ms). 
+2023-10-23 21:44:08.7208||DEBUG|Microsoft.EntityFrameworkCore.Migrations|Migrating using database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:44:08.7260||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:44:09.0697||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:44:09.0745||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:44:09.0778||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:44:09.0824||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (1ms). 
+2023-10-23 21:45:32.2142||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-23 21:45:32.7662||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-10-23 21:45:32.9031||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:45:32.9205||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:45:32.9473||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (24ms). 
+2023-10-23 21:45:32.9473||DEBUG|Microsoft.EntityFrameworkCore.Migrations|Migrating using database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:32.9530||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:33.3059||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:33.3068||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:33.3079||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:33.3636||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-10-23 21:45:33.3867||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:45:33.3867||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-23 21:45:33.3873||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'master' on server 'localhost'. 
+2023-10-23 21:45:33.4176||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'master' on server 'localhost'. 
+2023-10-23 21:45:33.4243||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:33.4311||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (5ms). 
+2023-10-23 21:45:33.4336||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (11ms). 
+2023-10-23 21:45:33.4405||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [RestaurantDb]; 
+2023-10-23 21:45:33.8860||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (447ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [RestaurantDb]; 
+2023-10-23 21:45:33.8873||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:33.8873||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:33.8873||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:33.8873||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [RestaurantDb] SET READ_COMMITTED_SNAPSHOT ON;
+END; 
+2023-10-23 21:45:34.0950||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (207ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [RestaurantDb] SET READ_COMMITTED_SNAPSHOT ON;
+END; 
+2023-10-23 21:45:34.0980||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'master' on server 'localhost'. 
+2023-10-23 21:45:34.1211||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'master' on server 'localhost' (13ms). 
+2023-10-23 21:45:34.1289||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'master' on server 'localhost'. 
+2023-10-23 21:45:34.1316||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (2ms). 
+2023-10-23 21:45:34.1316||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.1735||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.1744||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.1744||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.1744||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.1757||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:34.1981||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:34.1986||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.1986||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.2928||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.2928||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.2928||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.2928||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.2940||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.2940||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+); 
+2023-10-23 21:45:34.3149||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+); 
+2023-10-23 21:45:34.3149||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3154||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.3165||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3165||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3165||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.3165||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.3165||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.3172||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:34.3172||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:34.3172||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3182||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.3214||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteScalar'. 
+2023-10-23 21:45:34.3214||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteScalar' (0ms). 
+2023-10-23 21:45:34.3214||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteScalar' (0ms). 
+2023-10-23 21:45:34.3214||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3214||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3224||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2023-10-23 21:45:34.3373||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2023-10-23 21:45:34.3373||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3373||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.3399||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:34.3399||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:34.3399||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:34.3402||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3402||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3402||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+2023-10-23 21:45:34.3558||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+2023-10-23 21:45:34.3582||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3596||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 2ms reading results. 
+2023-10-23 21:45:34.3596||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.3602||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.3722||INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210110091250_Init'. 
+2023-10-23 21:45:34.4126||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.4126||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.4147||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-10-23 21:45:34.4213||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-10-23 21:45:34.4224||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.4224||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4238||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (1ms). 
+2023-10-23 21:45:34.4238||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Addresses] (
+    [Id] int NOT NULL IDENTITY,
+    [City] nvarchar(max) NULL,
+    [Street] nvarchar(max) NULL,
+    [PostalCode] nvarchar(max) NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id])
+); 
+2023-10-23 21:45:34.4274||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Addresses] (
+    [Id] int NOT NULL IDENTITY,
+    [City] nvarchar(max) NULL,
+    [Street] nvarchar(max) NULL,
+    [PostalCode] nvarchar(max) NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id])
+); 
+2023-10-23 21:45:34.4274||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.4274||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4283||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4283||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Restaurants] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(25) NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [Category] nvarchar(max) NULL,
+    [HasDelivery] bit NOT NULL,
+    [ContactEmail] nvarchar(max) NULL,
+    [ContactNumber] nvarchar(max) NULL,
+    [AddressId] int NOT NULL,
+    CONSTRAINT [PK_Restaurants] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Restaurants_Addresses_AddressId] FOREIGN KEY ([AddressId]) REFERENCES [Addresses] ([Id]) ON DELETE CASCADE
+); 
+2023-10-23 21:45:34.4320||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Restaurants] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(25) NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [Category] nvarchar(max) NULL,
+    [HasDelivery] bit NOT NULL,
+    [ContactEmail] nvarchar(max) NULL,
+    [ContactNumber] nvarchar(max) NULL,
+    [AddressId] int NOT NULL,
+    CONSTRAINT [PK_Restaurants] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Restaurants_Addresses_AddressId] FOREIGN KEY ([AddressId]) REFERENCES [Addresses] ([Id]) ON DELETE CASCADE
+); 
+2023-10-23 21:45:34.4322||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.4322||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4322||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4322||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Dishes] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [RestaurantId] int NOT NULL,
+    CONSTRAINT [PK_Dishes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Dishes_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([Id]) ON DELETE CASCADE
+); 
+2023-10-23 21:45:34.4346||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Dishes] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [RestaurantId] int NOT NULL,
+    CONSTRAINT [PK_Dishes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Dishes_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([Id]) ON DELETE CASCADE
+); 
+2023-10-23 21:45:34.4346||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.4346||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4346||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4346||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Dishes_RestaurantId] ON [Dishes] ([RestaurantId]); 
+2023-10-23 21:45:34.4366||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Dishes_RestaurantId] ON [Dishes] ([RestaurantId]); 
+2023-10-23 21:45:34.4366||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.4366||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4366||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4366||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Restaurants_AddressId] ON [Restaurants] ([AddressId]); 
+2023-10-23 21:45:34.4381||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Restaurants_AddressId] ON [Restaurants] ([AddressId]); 
+2023-10-23 21:45:34.4382||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.4382||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4382||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4382||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210110091250_Init', N'7.0.11'); 
+2023-10-23 21:45:34.4497||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210110091250_Init', N'7.0.11'); 
+2023-10-23 21:45:34.4527||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-10-23 21:45:34.4635||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-10-23 21:45:34.4666||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-10-23 21:45:34.4666||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.4673||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.4673||INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210110173423_AddressColumnAdjustments'. 
+2023-10-23 21:45:34.4980||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.4982||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.4982||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-10-23 21:45:34.4982||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-10-23 21:45:34.4993||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.4993||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4993||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.4993||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Addresses]') AND [c].[name] = N'Street');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Addresses] DROP CONSTRAINT [' + @var0 + '];');
+UPDATE [Addresses] SET [Street] = N'' WHERE [Street] IS NULL;
+ALTER TABLE [Addresses] ALTER COLUMN [Street] nvarchar(50) NOT NULL;
+ALTER TABLE [Addresses] ADD DEFAULT N'' FOR [Street]; 
+2023-10-23 21:45:34.7158||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (216ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Addresses]') AND [c].[name] = N'Street');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Addresses] DROP CONSTRAINT [' + @var0 + '];');
+UPDATE [Addresses] SET [Street] = N'' WHERE [Street] IS NULL;
+ALTER TABLE [Addresses] ALTER COLUMN [Street] nvarchar(50) NOT NULL;
+ALTER TABLE [Addresses] ADD DEFAULT N'' FOR [Street]; 
+2023-10-23 21:45:34.7158||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.7158||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7163||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7163||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Addresses]') AND [c].[name] = N'City');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [Addresses] DROP CONSTRAINT [' + @var1 + '];');
+UPDATE [Addresses] SET [City] = N'' WHERE [City] IS NULL;
+ALTER TABLE [Addresses] ALTER COLUMN [City] nvarchar(50) NOT NULL;
+ALTER TABLE [Addresses] ADD DEFAULT N'' FOR [City]; 
+2023-10-23 21:45:34.7377||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Addresses]') AND [c].[name] = N'City');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [Addresses] DROP CONSTRAINT [' + @var1 + '];');
+UPDATE [Addresses] SET [City] = N'' WHERE [City] IS NULL;
+ALTER TABLE [Addresses] ALTER COLUMN [City] nvarchar(50) NOT NULL;
+ALTER TABLE [Addresses] ADD DEFAULT N'' FOR [City]; 
+2023-10-23 21:45:34.7377||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.7382||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7382||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7382||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210110173423_AddressColumnAdjustments', N'7.0.11'); 
+2023-10-23 21:45:34.7394||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210110173423_AddressColumnAdjustments', N'7.0.11'); 
+2023-10-23 21:45:34.7394||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-10-23 21:45:34.7433||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-10-23 21:45:34.7433||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-10-23 21:45:34.7433||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.7433||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.7433||INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210124072000_UserAndRoleAdd'. 
+2023-10-23 21:45:34.7803||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.7803||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.7803||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-10-23 21:45:34.7817||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-10-23 21:45:34.7817||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.7817||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7817||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7823||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Roles] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Roles] PRIMARY KEY ([Id])
+); 
+2023-10-23 21:45:34.7849||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Roles] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Roles] PRIMARY KEY ([Id])
+); 
+2023-10-23 21:45:34.7852||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.7852||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7852||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7852||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NULL,
+    [LastName] nvarchar(max) NULL,
+    [DateOfBirth] datetime2 NULL,
+    [Nationality] nvarchar(max) NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [RoleId] int NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Roles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([Id]) ON DELETE CASCADE
+); 
+2023-10-23 21:45:34.7893||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NULL,
+    [LastName] nvarchar(max) NULL,
+    [DateOfBirth] datetime2 NULL,
+    [Nationality] nvarchar(max) NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [RoleId] int NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Roles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([Id]) ON DELETE CASCADE
+); 
+2023-10-23 21:45:34.7893||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.7893||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7893||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7893||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Users_RoleId] ON [Users] ([RoleId]); 
+2023-10-23 21:45:34.7918||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Users_RoleId] ON [Users] ([RoleId]); 
+2023-10-23 21:45:34.7918||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.7918||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7918||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.7918||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210124072000_UserAndRoleAdd', N'7.0.11'); 
+2023-10-23 21:45:34.7929||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210124072000_UserAndRoleAdd', N'7.0.11'); 
+2023-10-23 21:45:34.7929||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-10-23 21:45:34.7968||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-10-23 21:45:34.7968||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-10-23 21:45:34.7968||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.7968||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.7968||INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210131092316_RestaurantCreatedByIdAdd'. 
+2023-10-23 21:45:34.8075||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.8075||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.8075||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-10-23 21:45:34.8082||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-10-23 21:45:34.8082||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.8082||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8082||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8082||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Restaurants] ADD [CreatedById] int NULL; 
+2023-10-23 21:45:34.8105||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Restaurants] ADD [CreatedById] int NULL; 
+2023-10-23 21:45:34.8105||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.8105||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8105||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8105||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Restaurants_CreatedById] ON [Restaurants] ([CreatedById]); 
+2023-10-23 21:45:34.8118||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Restaurants_CreatedById] ON [Restaurants] ([CreatedById]); 
+2023-10-23 21:45:34.8118||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.8118||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8118||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8118||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Restaurants] ADD CONSTRAINT [FK_Restaurants_Users_CreatedById] FOREIGN KEY ([CreatedById]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION; 
+2023-10-23 21:45:34.8132||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Restaurants] ADD CONSTRAINT [FK_Restaurants_Users_CreatedById] FOREIGN KEY ([CreatedById]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION; 
+2023-10-23 21:45:34.8132||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:34.8132||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8132||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:34.8132||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210131092316_RestaurantCreatedByIdAdd', N'7.0.11'); 
+2023-10-23 21:45:34.8132||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210131092316_RestaurantCreatedByIdAdd', N'7.0.11'); 
+2023-10-23 21:45:34.8142||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-10-23 21:45:34.8176||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-10-23 21:45:34.8176||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-10-23 21:45:34.8176||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.8176||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:34.8198||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:45:34.8204||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:34.8204||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2023-10-23 21:45:45.7937||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-10-23 21:45:45.8583||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/home/kollibroman/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2023-10-23 21:45:45.8738||DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/home/kollibroman/.aspnet/DataProtection-Keys/key-1e83f217-6038-4fd9-8ba3-01a364e66f1e.xml'. 
+2023-10-23 21:45:45.8795||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {1e83f217-6038-4fd9-8ba3-01a364e66f1e}. 
+2023-10-23 21:45:45.8908||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {1e83f217-6038-4fd9-8ba3-01a364e66f1e} with expiration date 2024-01-01 20:17:45Z as default key. 
+2023-10-23 21:45:45.8927||DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-23 21:45:45.8952||DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2023-10-23 21:45:45.8952||DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2023-10-23 21:45:45.9026||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {1e83f217-6038-4fd9-8ba3-01a364e66f1e} as the default key. 
+2023-10-23 21:45:45.9039||DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {1e83f217-6038-4fd9-8ba3-01a364e66f1e} was loaded during application startup. 
+2023-10-23 21:45:46.0127||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-23 21:45:46.5702||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-10-23 21:45:46.7135||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:45:46.7231||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:45:46.7509||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (26ms). 
+2023-10-23 21:45:46.7534||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.2376||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.2424||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:47.2491||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (3ms). 
+2023-10-23 21:45:47.2513||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (9ms). 
+2023-10-23 21:45:47.2583||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:47.2847||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:47.2869||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.2961||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (5ms). 
+2023-10-23 21:45:47.3054||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3064||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3064||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-10-23 21:45:47.3064||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:47.3064||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2023-10-23 21:45:47.3072||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:47.3086||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-10-23 21:45:47.3086||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3086||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:47.3122||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteScalar'. 
+2023-10-23 21:45:47.3122||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteScalar' (0ms). 
+2023-10-23 21:45:47.3122||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteScalar' (0ms). 
+2023-10-23 21:45:47.3122||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3122||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3122||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2023-10-23 21:45:47.3280||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2023-10-23 21:45:47.3280||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3286||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:47.3490||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:47.3492||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:47.3492||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:47.3492||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3492||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3492||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+2023-10-23 21:45:47.3616||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+2023-10-23 21:45:47.3646||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3663||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 2ms reading results. 
+2023-10-23 21:45:47.3663||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.3663||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:47.4281||DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Role>()
+    .Any()' 
+2023-10-23 21:45:47.6061||DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Roles AS r)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    RestaurantAPI.Entities.RestaurantDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-10-23 21:45:47.6345||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:47.6345||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:47.6345||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:47.6345||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.6345||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.6345||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2023-10-23 21:45:47.6391||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2023-10-23 21:45:47.6418||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.6418||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 2ms reading results. 
+2023-10-23 21:45:47.6418||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.6418||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:47.6728||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Role"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.7233||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.7253||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Role"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.7263||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.7263||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Role"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.7263||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.7283||DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'RestaurantDbContext'. 
+2023-10-23 21:45:47.7301||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'RestaurantDbContext'. 
+2023-10-23 21:45:47.7378||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'RestaurantDbContext'. 
+2023-10-23 21:45:47.7952||DEBUG|Microsoft.EntityFrameworkCore.Update|Executing 3 update commands as a batch. 
+2023-10-23 21:45:47.8035||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8035||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8049||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:47.8049||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:47.8085||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (3ms). 
+2023-10-23 21:45:47.8112||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Roles] USING (
+VALUES (@p0, 0),
+(@p1, 1),
+(@p2, 2)) AS i ([Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Name])
+VALUES (i.[Name])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:47.8439||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Roles] USING (
+VALUES (@p0, 0),
+(@p1, 1),
+(@p2, 2)) AS i ([Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Name])
+VALUES (i.[Name])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:47.8532||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Role.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:47.8564||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Role.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:47.8564||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Role.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:47.8586||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8586||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 14ms reading results. 
+2023-10-23 21:45:47.8593||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8593||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:47.8683||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Role' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.8683||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Role' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.8683||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Role' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.8698||DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'RestaurantDbContext' with 3 entities written to the database. 
+2023-10-23 21:45:47.8709||DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Restaurant>()
+    .Any()' 
+2023-10-23 21:45:47.8738||DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Restaurants AS r)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    RestaurantAPI.Entities.RestaurantDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-10-23 21:45:47.8744||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:47.8744||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:47.8744||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:47.8744||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8744||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8744||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Restaurants] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2023-10-23 21:45:47.8784||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Restaurants] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2023-10-23 21:45:47.8784||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8784||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 0ms reading results. 
+2023-10-23 21:45:47.8784||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:47.8784||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:47.9009||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Restaurant"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9352||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Restaurant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9366||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Address"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9516||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Restaurant.AddressId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:47.9572||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Address.Restaurant' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9612||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Address' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9638||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Dish"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9782||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Dish.Restaurant' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9866||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Dish' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9866||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Dish"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9866||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Dish.Restaurant' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9866||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Dish' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9873||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Restaurant"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9873||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Restaurant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9873||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"RestaurantDbContext"' generated a temporary value for the property '"Id"."Address"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9873||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Restaurant.AddressId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:47.9873||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Address.Restaurant' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9873||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Address' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:47.9882||DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'RestaurantDbContext'. 
+2023-10-23 21:45:47.9882||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'RestaurantDbContext'. 
+2023-10-23 21:45:48.0012||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'RestaurantDbContext'. 
+2023-10-23 21:45:48.0105||DEBUG|Microsoft.EntityFrameworkCore.Update|Executing 2 update commands as a batch. 
+2023-10-23 21:45:48.0113||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:48.0113||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:48.0129||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-10-23 21:45:48.0186||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-10-23 21:45:48.0196||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:48.0196||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:48.0210||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (1ms). 
+2023-10-23 21:45:48.0212||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (Size = 50), @p4='?' (Size = 4000), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Addresses] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1)) AS i ([City], [PostalCode], [Street], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([City], [PostalCode], [Street])
+VALUES (i.[City], i.[PostalCode], i.[Street])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:48.0273||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (Size = 50), @p4='?' (Size = 4000), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Addresses] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1)) AS i ([City], [PostalCode], [Street], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([City], [PostalCode], [Street])
+VALUES (i.[City], i.[PostalCode], i.[Street])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:48.0284||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Address.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0295||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Restaurant.AddressId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0295||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Address.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0295||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Restaurant.AddressId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0295||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:48.0295||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 2ms reading results. 
+2023-10-23 21:45:48.0307||DEBUG|Microsoft.EntityFrameworkCore.Update|Executing 2 update commands as a batch. 
+2023-10-23 21:45:48.0307||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:48.0307||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:48.0313||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:48.0313||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 25), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (Size = 25)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Restaurants] USING (
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, 0),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, 1)) AS i ([AddressId], [Category], [ContactEmail], [ContactNumber], [CreatedById], [Description], [HasDelivery], [Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([AddressId], [Category], [ContactEmail], [ContactNumber], [CreatedById], [Description], [HasDelivery], [Name])
+VALUES (i.[AddressId], i.[Category], i.[ContactEmail], i.[ContactNumber], i.[CreatedById], i.[Description], i.[HasDelivery], i.[Name])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:48.0521||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 25), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (Size = 25)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Restaurants] USING (
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, 0),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, 1)) AS i ([AddressId], [Category], [ContactEmail], [ContactNumber], [CreatedById], [Description], [HasDelivery], [Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([AddressId], [Category], [ContactEmail], [ContactNumber], [CreatedById], [Description], [HasDelivery], [Name])
+VALUES (i.[AddressId], i.[Category], i.[ContactEmail], i.[ContactNumber], i.[CreatedById], i.[Description], i.[HasDelivery], i.[Name])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:48.0530||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Restaurant.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0545||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Dish.RestaurantId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0568||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Dish.RestaurantId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0568||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Restaurant.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0573||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:48.0573||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 5ms reading results. 
+2023-10-23 21:45:48.0573||DEBUG|Microsoft.EntityFrameworkCore.Update|Executing 2 update commands as a batch. 
+2023-10-23 21:45:48.0573||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:45:48.0573||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:45:48.0589||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (1ms). 
+2023-10-23 21:45:48.0589||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p25='?' (DbType = Int32), @p26='?' (Size = 4000), @p27='?' (Size = 4000), @p28='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p29='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Dishes] USING (
+VALUES (@p22, @p23, @p24, @p25, 0),
+(@p26, @p27, @p28, @p29, 1)) AS i ([Description], [Name], [Price], [RestaurantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price], [RestaurantId])
+VALUES (i.[Description], i.[Name], i.[Price], i.[RestaurantId])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:48.0766||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[@p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p25='?' (DbType = Int32), @p26='?' (Size = 4000), @p27='?' (Size = 4000), @p28='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p29='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Dishes] USING (
+VALUES (@p22, @p23, @p24, @p25, 0),
+(@p26, @p27, @p28, @p29, 1)) AS i ([Description], [Name], [Price], [RestaurantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price], [RestaurantId])
+VALUES (i.[Description], i.[Name], i.[Price], i.[RestaurantId])
+OUTPUT INSERTED.[Id], i._Position; 
+2023-10-23 21:45:48.0776||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Dish.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0776||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Dish.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-23 21:45:48.0776||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:48.0776||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 1ms reading results. 
+2023-10-23 21:45:48.0811||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-10-23 21:45:48.0903||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-10-23 21:45:48.0903||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:48.0903||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:45:48.0922||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-10-23 21:45:48.0934||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Dish' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:48.0934||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Address' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:48.0952||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Restaurant' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:48.0953||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Dish' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:48.0953||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Restaurant' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:48.0953||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Address' tracked by 'RestaurantDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:45:48.0953||DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'RestaurantDbContext' with 6 entities written to the database. 
+2023-10-23 21:45:48.1310||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-10-23 21:45:48.1755||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:45:48.1773||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:45:48.1785||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (1ms). 
+2023-10-23 21:45:48.2957||WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert. 
+2023-10-23 21:45:48.3119||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2023-10-23 21:45:48.3119||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2023-10-23 21:45:48.3123||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly RestaurantAPI 
+2023-10-23 21:45:48.3148||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-10-23 21:45:48.3148||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-10-23 21:45:48.3148||INFO|Microsoft.Hosting.Lifetime|Content root path: /home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/RestaurantAPI 
+2023-10-23 21:45:48.3152||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-10-23 21:45:51.2920||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUK02KOV275" accepted. 
+2023-10-23 21:45:51.2931||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUK02KOV275" started. 
+2023-10-23 21:45:51.3194||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUK02KOV275" received FIN. 
+2023-10-23 21:45:51.3257||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+OpenSsl+SslException: SSL Handshake failed with OpenSSL error - SSL_ERROR_SSL.
+ ---> Interop+Crypto+OpenSslCryptographicException: error:0A000412:SSL routines::sslv3 alert bad certificate
+   --- End of inner exception stack trace ---
+   at Interop.OpenSsl.DoSslHandshake(SafeSslHandle context, ReadOnlySpan`1 input, Byte[]& sendBuf, Int32& sendCount)
+   at System.Net.Security.SslStreamPal.HandshakeInternal(SafeDeleteSslContext& context, ReadOnlySpan`1 inputBuffer, Byte[]& outputBuffer, SslAuthenticationOptions sslAuthenticationOptions, SelectClientCertificate clientCertificateSelectionCallback)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-23 21:45:51.3457||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUK02KOV275" stopped. 
+2023-10-23 21:45:51.3473||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUK02KOV275" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-10-23 21:45:55.0703||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUK02KOV276" accepted. 
+2023-10-23 21:45:55.0703||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUK02KOV276" started. 
+2023-10-23 21:45:55.0897||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMUK02KOV276 established using the following protocol: Tls13 
+2023-10-23 21:45:55.1109||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-23 21:45:55.1128||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-23 21:45:55.1134||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received SETTINGS frame for stream ID 0 with length 18 and flags NONE. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received PRIORITY frame for stream ID 3 with length 5 and flags 0x0. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received PRIORITY frame for stream ID 5 with length 5 and flags 0x0. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received PRIORITY frame for stream ID 7 with length 5 and flags 0x0. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received PRIORITY frame for stream ID 9 with length 5 and flags 0x0. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received PRIORITY frame for stream ID 11 with length 5 and flags 0x0. 
+2023-10-23 21:45:55.1143||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received PRIORITY frame for stream ID 13 with length 5 and flags 0x0. 
+2023-10-23 21:45:55.1153||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 15 with length 318 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:45:55.1348||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 15 with length 4 and flags 0x0. 
+2023-10-23 21:45:55.1358||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-23 21:45:55.1586||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - 
+2023-10-23 21:45:55.1597||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-10-23 21:45:55.1597||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:45:55.1629||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:45:55.1660||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2023-10-23 21:45:55.1952||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:45:55.2131||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-10-23 21:45:55.2467||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/' 
+2023-10-23 21:45:55.2467||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-10-23 21:45:55.2489||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:45:55.2489||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:45:55.2516||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 96.2679ms 
+2023-10-23 21:45:55.2516||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 15 with length 45 and flags END_STREAM, END_HEADERS. 
+2023-10-23 21:45:55.3770||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 17 with length 92 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:45:55.3815||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 17 with length 4 and flags 0x0. 
+2023-10-23 21:45:55.3815||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/favicon.ico - - 
+2023-10-23 21:45:55.3823||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:45:55.3823||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:45:55.3841||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /favicon.ico does not match an existing file 
+2023-10-23 21:45:55.3873||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:45:55.3884||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-10-23 21:45:55.3899||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2023-10-23 21:45:55.3899||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-10-23 21:45:55.3905||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:45:55.3905||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:45:55.3905||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 17 with length 7 and flags END_STREAM, END_HEADERS. 
+2023-10-23 21:45:55.3912||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 404 0 - 9.1008ms 
+2023-10-23 21:46:03.5502||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 19 with length 29 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:03.5502||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 19 with length 4 and flags 0x0. 
+2023-10-23 21:46:03.5515||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger - - 
+2023-10-23 21:46:03.5515||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:03.5515||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:46:03.5515||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger does not match a supported file type 
+2023-10-23 21:46:03.5614||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:03.5642||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:46:03.5642||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:46:03.5642||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 13.3711ms 
+2023-10-23 21:46:03.5642||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 19 with length 61 and flags END_STREAM, END_HEADERS. 
+2023-10-23 21:46:03.5961||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 21 with length 37 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:03.5967||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 21 with length 4 and flags 0x0. 
+2023-10-23 21:46:03.5967||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - - 
+2023-10-23 21:46:03.5967||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:03.5972||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:46:03.5972||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file 
+2023-10-23 21:46:03.5972||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:03.7353||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:46:03.7353||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 21 with length 28 and flags END_HEADERS. 
+2023-10-23 21:46:03.7406||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 21 with length 4096 and flags NONE. 
+2023-10-23 21:46:03.7449||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 21 with length 659 and flags NONE. 
+2023-10-23 21:46:03.7521||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:46:03.7545||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 21 with length 0 and flags END_STREAM. 
+2023-10-23 21:46:03.7545||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 157.5887ms 
+2023-10-23 21:46:03.8443||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 23 with length 92 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:03.8443||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 23 with length 4 and flags 0x0. 
+2023-10-23 21:46:03.8443||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 25 with length 54 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:03.8443||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 25 with length 4 and flags 0x0. 
+2023-10-23 21:46:03.8443||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - 
+2023-10-23 21:46:03.8443||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:03.8443||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:46:03.8452||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/swagger-ui.css does not match an existing file 
+2023-10-23 21:46:03.8443||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 27 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:03.8443||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - 
+2023-10-23 21:46:03.8452||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:03.8452||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 27 with length 4 and flags 0x0. 
+2023-10-23 21:46:03.8452||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:03.8452||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - 
+2023-10-23 21:46:03.8452||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:03.8452||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:46:03.8452||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file 
+2023-10-23 21:46:03.8452||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:46:03.8463||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:03.8463||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/swagger-ui-bundle.js does not match an existing file 
+2023-10-23 21:46:03.8463||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:03.8491||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-10-23 21:46:03.8491||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-10-23 21:46:03.8491||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-10-23 21:46:03.8518||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:46:03.8518||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:46:03.8518||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:46:03.8523||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 25 with length 87 and flags END_HEADERS. 
+2023-10-23 21:46:03.8523||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8523||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8523||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8523||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8538||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 23 with length 43 and flags END_HEADERS. 
+2023-10-23 21:46:03.8538||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8538||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8538||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8538||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 27 with length 34 and flags END_HEADERS. 
+2023-10-23 21:46:03.8593||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8593||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8593||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8593||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8606||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8606||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8606||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8606||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8615||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8615||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8615||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8615||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8627||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8627||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8627||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8627||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8635||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8635||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8635||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8635||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8645||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 13857 and flags NONE. 
+2023-10-23 21:46:03.8645||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8654||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8654||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8664||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8664||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8673||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8673||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8673||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8673||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2023-10-23 21:46:03.8684||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:46:03.8684||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 144929 text/css 23.6679ms 
+2023-10-23 21:46:03.8684||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8684||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8692||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8692||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8692||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 23 with length 0 and flags END_STREAM. 
+2023-10-23 21:46:03.8692||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8692||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8692||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8702||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8702||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8702||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8713||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8713||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 867 and flags NONE. 
+2023-10-23 21:46:03.8713||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8713||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8713||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2023-10-23 21:46:03.8723||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:46:03.8723||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 26.8110ms 
+2023-10-23 21:46:03.8723||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8723||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8738||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 27 with length 0 and flags END_STREAM. 
+2023-10-23 21:46:03.8743||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8743||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8743||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8743||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8758||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8758||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8763||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8763||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8763||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8773||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8773||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8773||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8773||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8785||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8785||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8785||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8795||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8795||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8795||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8795||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8811||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8815||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8815||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8815||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8827||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8827||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8827||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8827||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8849||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8849||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8852||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8852||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8852||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8865||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8865||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8865||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 16384 and flags NONE. 
+2023-10-23 21:46:03.8876||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 12960 and flags NONE. 
+2023-10-23 21:46:03.8876||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2023-10-23 21:46:03.8876||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:46:03.8882||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 25 with length 0 and flags END_STREAM. 
+2023-10-23 21:46:03.8882||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 43.2472ms 
+2023-10-23 21:46:04.0614||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 29 with length 41 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:04.0614||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 29 with length 4 and flags 0x0. 
+2023-10-23 21:46:04.0614||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-16x16.png - - 
+2023-10-23 21:46:04.0614||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:04.0614||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:46:04.0624||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/favicon-16x16.png does not match an existing file 
+2023-10-23 21:46:04.0624||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:04.0624||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-10-23 21:46:04.0637||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:46:04.0637||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' 
+2023-10-23 21:46:04.0637||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 29 with length 41 and flags END_HEADERS. 
+2023-10-23 21:46:04.0637||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:46:04.0637||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 29 with length 665 and flags NONE. 
+2023-10-23 21:46:04.0644||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-16x16.png - - - 200 665 image/png 2.5186ms 
+2023-10-23 21:46:04.0644||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 29 with length 0 and flags END_STREAM. 
+2023-10-23 21:46:04.1355||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 31 with length 68 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:04.1355||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 31 with length 4 and flags 0x0. 
+2023-10-23 21:46:04.1355||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - 
+2023-10-23 21:46:04.1355||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:04.1362||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:46:04.1362||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file 
+2023-10-23 21:46:04.1362||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:04.2835||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:46:04.2835||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 31 with length 65 and flags END_HEADERS. 
+2023-10-23 21:46:04.2835||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 31 with length 4096 and flags NONE. 
+2023-10-23 21:46:04.2835||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 31 with length 4096 and flags NONE. 
+2023-10-23 21:46:04.2835||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 31 with length 4096 and flags NONE. 
+2023-10-23 21:46:04.2843||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 31 with length 4096 and flags NONE. 
+2023-10-23 21:46:04.2843||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 31 with length 1068 and flags NONE. 
+2023-10-23 21:46:04.2854||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:46:04.2854||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.5251ms 
+2023-10-23 21:46:04.2854||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 31 with length 0 and flags END_STREAM. 
+2023-10-23 21:46:12.3999||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 33 with length 69 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:46:12.4002||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 33 with length 4 and flags 0x0. 
+2023-10-23 21:46:12.4002||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:5001/api/restaurant/1/dish - - 
+2023-10-23 21:46:12.4002||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:46:12.4014||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The request cannot be served from cache because it uses the HTTP method: DELETE. 
+2023-10-23 21:46:12.4014||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DELETE requests are not supported 
+2023-10-23 21:46:12.4053||DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2023-10-23 21:46:12.4066||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2023-10-23 21:46:12.4066||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin https://localhost:5001 does not have permission to access the resource. 
+2023-10-23 21:46:12.4085||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:46:12.4085||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DELETE requests are not supported 
+2023-10-23 21:46:12.4180||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant/1/dish' 
+2023-10-23 21:46:12.4192||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI)' with route pattern 'api/restaurant/{restaurantId}/dish' is valid for the request path '/api/restaurant/1/dish' 
+2023-10-23 21:46:12.4203||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI)' 
+2023-10-23 21:46:12.4234||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI)' 
+2023-10-23 21:46:12.4611||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Dish"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller RestaurantAPI.Controllers.DishController (RestaurantAPI). 
+2023-10-23 21:46:12.4648||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-10-23 21:46:12.4648||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-10-23 21:46:12.4657||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-10-23 21:46:12.4657||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-10-23 21:46:12.4657||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-10-23 21:46:12.4705||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.DishController (RestaurantAPI) 
+2023-10-23 21:46:12.5866||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.DishController (RestaurantAPI) 
+2023-10-23 21:46:12.6016||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'restaurantId' of type 'System.Int32' ... 
+2023-10-23 21:46:12.6041||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'restaurantId' of type 'System.Int32' using the name 'restaurantId' in request data ... 
+2023-10-23 21:46:12.6047||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'restaurantId' of type 'System.Int32'. 
+2023-10-23 21:46:12.6047||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'restaurantId' of type 'System.Int32'. 
+2023-10-23 21:46:12.6047||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'restaurantId' of type 'System.Int32' ... 
+2023-10-23 21:46:12.6196||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'restaurantId' of type 'System.Int32'. 
+2023-10-23 21:46:12.6221||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:46:12.6223||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:46:12.6223||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:46:12.6223||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:46:12.6263||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI) - Validation state: Valid 
+2023-10-23 21:46:12.6263||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI) with arguments (1) 
+2023-10-23 21:46:12.6447||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:46:12.6592||DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Restaurant>()
+    .Include(r => r.Dishes)
+    .FirstOrDefault(r => r.Id == __restaurantId_0)' 
+2023-10-23 21:46:12.6799||DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'Restaurant.Dishes'. 
+2023-10-23 21:46:12.8030||DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Restaurant>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Restaurant.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Restaurant.AddressId (int) Required FK Index, 1], [Property: Restaurant.Category (string), 2], [Property: Restaurant.ContactEmail (string), 3], [Property: Restaurant.ContactNumber (string), 4], [Property: Restaurant.CreatedById (int?) FK Index, 5], [Property: Restaurant.Description (string), 6], [Property: Restaurant.HasDelivery (bool) Required, 7], [Property: Restaurant.Name (string) Required MaxLength(25), 8] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Dish.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 9], [Property: Dish.Description (string), 10], [Property: Dish.Name (string) Required, 11], [Property: Dish.Price (decimal) Required, 12], [Property: Dish.RestaurantId (int) Required FK Index, 13] }
+            3 -> 9
+        SELECT t.Id, t.AddressId, t.Category, t.ContactEmail, t.ContactNumber, t.CreatedById, t.Description, t.HasDelivery, t.Name, d.Id, d.Description, d.Name, d.Price, d.RestaurantId
+        FROM 
+        (
+            SELECT TOP(1) r.Id, r.AddressId, r.Category, r.ContactEmail, r.ContactNumber, r.CreatedById, r.Description, r.HasDelivery, r.Name
+            FROM Restaurants AS r
+            WHERE r.Id == @__restaurantId_0
+        ) AS t
+        LEFT JOIN Dishes AS d ON t.Id == d.RestaurantId
+        ORDER BY t.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Restaurant>, 
+    RestaurantAPI.Entities.RestaurantDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()' 
+2023-10-23 21:46:12.8130||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:46:12.8133||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:46:12.8133||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-23 21:46:12.8133||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:46:12.8133||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:46:12.8133||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8133||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8133||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__restaurantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AddressId], [t].[Category], [t].[ContactEmail], [t].[ContactNumber], [t].[CreatedById], [t].[Description], [t].[HasDelivery], [t].[Name], [d].[Id], [d].[Description], [d].[Name], [d].[Price], [d].[RestaurantId]
+FROM (
+    SELECT TOP(1) [r].[Id], [r].[AddressId], [r].[Category], [r].[ContactEmail], [r].[ContactNumber], [r].[CreatedById], [r].[Description], [r].[HasDelivery], [r].[Name]
+    FROM [Restaurants] AS [r]
+    WHERE [r].[Id] = @__restaurantId_0
+) AS [t]
+LEFT JOIN [Dishes] AS [d] ON [t].[Id] = [d].[RestaurantId]
+ORDER BY [t].[Id] 
+2023-10-23 21:46:12.8224||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[@__restaurantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AddressId], [t].[Category], [t].[ContactEmail], [t].[ContactNumber], [t].[CreatedById], [t].[Description], [t].[HasDelivery], [t].[Name], [d].[Id], [d].[Description], [d].[Name], [d].[Price], [d].[RestaurantId]
+FROM (
+    SELECT TOP(1) [r].[Id], [r].[AddressId], [r].[Category], [r].[ContactEmail], [r].[ContactNumber], [r].[CreatedById], [r].[Description], [r].[HasDelivery], [r].[Name]
+    FROM [Restaurants] AS [r]
+    WHERE [r].[Id] = @__restaurantId_0
+) AS [t]
+LEFT JOIN [Dishes] AS [d] ON [t].[Id] = [d].[RestaurantId]
+ORDER BY [t].[Id] 
+2023-10-23 21:46:12.8274||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Restaurant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:46:12.8347||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Dish' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:46:12.8354||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Dish' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:46:12.8354||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8354||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 13ms reading results. 
+2023-10-23 21:46:12.8354||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8362||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:46:12.8372||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Dish' tracked by 'RestaurantDbContext' changed state from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:46:12.8388||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Dish' tracked by 'RestaurantDbContext' changed state from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:46:12.8388||DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'RestaurantDbContext'. 
+2023-10-23 21:46:12.8388||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'RestaurantDbContext'. 
+2023-10-23 21:46:12.8396||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'RestaurantDbContext'. 
+2023-10-23 21:46:12.8467||DEBUG|Microsoft.EntityFrameworkCore.Update|Executing 2 update commands as a batch. 
+2023-10-23 21:46:12.8467||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8467||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8467||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-10-23 21:46:12.8475||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-10-23 21:46:12.8475||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:46:12.8475||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:46:12.8475||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:46:12.8475||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Dishes]
+OUTPUT 1
+WHERE [Id] = @p0;
+DELETE FROM [Dishes]
+OUTPUT 1
+WHERE [Id] = @p1; 
+2023-10-23 21:46:12.8553||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Dishes]
+OUTPUT 1
+WHERE [Id] = @p0;
+DELETE FROM [Dishes]
+OUTPUT 1
+WHERE [Id] = @p1; 
+2023-10-23 21:46:12.8553||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8553||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 0ms reading results. 
+2023-10-23 21:46:12.8553||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-10-23 21:46:12.8597||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-10-23 21:46:12.8597||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8597||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:46:12.8597||DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-10-23 21:46:12.8656||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Dish' tracked by 'RestaurantDbContext' changed state from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:46:12.8656||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Dish' tracked by 'RestaurantDbContext' changed state from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:46:12.8656||DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'RestaurantDbContext' with 2 entities written to the database. 
+2023-10-23 21:46:12.8694||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 239.6773ms. 
+2023-10-23 21:46:12.8694||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:46:12.8694||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:46:12.8694||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:46:12.8694||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:46:12.8694||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:46:12.8694||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:46:12.8713||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.NoContentResult. 
+2023-10-23 21:46:12.8725||INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing StatusCodeResult, setting HTTP status code 204 
+2023-10-23 21:46:12.8725||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.NoContentResult. 
+2023-10-23 21:46:12.8725||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:46:12.8725||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:46:12.8761||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI) in 406.8919ms 
+2023-10-23 21:46:12.8762||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.DishController.Delete (RestaurantAPI)' 
+2023-10-23 21:46:12.8762||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 33 with length 33 and flags END_STREAM, END_HEADERS. 
+2023-10-23 21:46:12.8780||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:46:12.8835||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:46:12.8855||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (2ms). 
+2023-10-23 21:46:12.8863||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:5001/api/restaurant/1/dish - - - 204 - - 485.6266ms 
+2023-10-23 21:47:09.3053||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 35 with length 98 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:47:09.3053||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 35 with length 4 and flags 0x0. 
+2023-10-23 21:47:09.3053||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/restaurant?SearchPhrase=kfc&PageNumber=1&PageSize=10&SortBy=restaurant&SortDirection=0 - - 
+2023-10-23 21:47:09.3053||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:47:09.3064||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:47:09.3064||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /api/restaurant does not match a supported file type 
+2023-10-23 21:47:09.3064||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:47:09.3064||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-10-23 21:47:09.3081||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant' 
+2023-10-23 21:47:09.3083||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' with route pattern 'api/restaurant' is valid for the request path '/api/restaurant' 
+2023-10-23 21:47:09.3083||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2023-10-23 21:47:09.3122||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2023-10-23 21:47:09.3182||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RestaurantAPI.Models.RestaurantDto]] GetAll(RestaurantAPI.Models.RestaurantQuery) on controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI). 
+2023-10-23 21:47:09.3183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-10-23 21:47:09.3183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-10-23 21:47:09.3183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-10-23 21:47:09.3183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-10-23 21:47:09.3183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-10-23 21:47:09.3183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2023-10-23 21:47:09.3199||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2023-10-23 21:47:09.3256||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery' ... 
+2023-10-23 21:47:09.3265||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery' using the name '' in request data ... 
+2023-10-23 21:47:09.3323||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SearchPhrase' of type 'System.String' using the name 'SearchPhrase' in request data ... 
+2023-10-23 21:47:09.3323||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SearchPhrase' of type 'System.String'. 
+2023-10-23 21:47:09.3335||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageNumber' of type 'System.Int32' using the name 'PageNumber' in request data ... 
+2023-10-23 21:47:09.3335||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageNumber' of type 'System.Int32'. 
+2023-10-23 21:47:09.3335||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ... 
+2023-10-23 21:47:09.3343||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageSize' of type 'System.Int32'. 
+2023-10-23 21:47:09.3343||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortBy' of type 'System.String' using the name 'SortBy' in request data ... 
+2023-10-23 21:47:09.3343||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortBy' of type 'System.String'. 
+2023-10-23 21:47:09.3343||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortDirection' of type 'RestaurantAPI.Models.SortDirection' using the name 'SortDirection' in request data ... 
+2023-10-23 21:47:09.3343||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortDirection' of type 'RestaurantAPI.Models.SortDirection'. 
+2023-10-23 21:47:09.3373||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Done attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery'. 
+2023-10-23 21:47:09.3373||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery'. 
+2023-10-23 21:47:09.3373||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery' ... 
+2023-10-23 21:47:09.3958||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery'. 
+2023-10-23 21:47:09.3958||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:09.3966||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:09.3966||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:47:09.3972||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter|The request has model state errors, returning an error response. 
+2023-10-23 21:47:09.3987||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:47:09.3996||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'. 
+2023-10-23 21:47:09.3996||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:09.3996||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:09.3996||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:09.3996||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:09.4002||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2023-10-23 21:47:09.4021||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-10-23 21:47:09.4063||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain' and explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'. The content types in the accept header must be a subset of the explicitly set content types. 
+2023-10-23 21:47:09.4075||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2023-10-23 21:47:09.4075||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'. 
+2023-10-23 21:47:09.4094||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response. 
+2023-10-23 21:47:09.4094||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2023-10-23 21:47:09.4158||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:47:09.4158||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 35 with length 74 and flags END_HEADERS. 
+2023-10-23 21:47:09.4158||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2023-10-23 21:47:09.4158||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 35 with length 278 and flags NONE. 
+2023-10-23 21:47:09.4158||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:09.4164||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:09.4164||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) in 97.9517ms 
+2023-10-23 21:47:09.4164||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2023-10-23 21:47:09.4164||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:47:09.4164||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 35 with length 0 and flags END_STREAM. 
+2023-10-23 21:47:09.4164||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/restaurant?SearchPhrase=kfc&PageNumber=1&PageSize=10&SortBy=restaurant&SortDirection=0 - - - 400 - application/problem+json;+charset=utf-8 110.9796ms 
+2023-10-23 21:47:44.4270||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received HEADERS frame for stream ID 37 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-23 21:47:44.4275||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" received WINDOW_UPDATE frame for stream ID 37 with length 4 and flags 0x0. 
+2023-10-23 21:47:44.4275||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/restaurant?SearchPhrase=kfc&PageNumber=1&PageSize=10&SortDirection=0 - - 
+2023-10-23 21:47:44.4275||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-23 21:47:44.4275||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request. 
+2023-10-23 21:47:44.4275||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /api/restaurant does not match a supported file type 
+2023-10-23 21:47:44.4275||DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-23 21:47:44.4283||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-10-23 21:47:44.4283||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant' 
+2023-10-23 21:47:44.4283||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' with route pattern 'api/restaurant' is valid for the request path '/api/restaurant' 
+2023-10-23 21:47:44.4283||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2023-10-23 21:47:44.4305||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2023-10-23 21:47:44.4305||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RestaurantAPI.Models.RestaurantDto]] GetAll(RestaurantAPI.Models.RestaurantQuery) on controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI). 
+2023-10-23 21:47:44.4305||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-10-23 21:47:44.4305||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-10-23 21:47:44.4305||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-10-23 21:47:44.4305||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-10-23 21:47:44.4305||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-10-23 21:47:44.4305||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2023-10-23 21:47:44.4319||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2023-10-23 21:47:44.4325||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery' ... 
+2023-10-23 21:47:44.4325||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery' using the name '' in request data ... 
+2023-10-23 21:47:44.4325||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SearchPhrase' of type 'System.String' using the name 'SearchPhrase' in request data ... 
+2023-10-23 21:47:44.4325||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SearchPhrase' of type 'System.String'. 
+2023-10-23 21:47:44.4325||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageNumber' of type 'System.Int32' using the name 'PageNumber' in request data ... 
+2023-10-23 21:47:44.4332||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageNumber' of type 'System.Int32'. 
+2023-10-23 21:47:44.4332||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ... 
+2023-10-23 21:47:44.4332||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.PageSize' of type 'System.Int32'. 
+2023-10-23 21:47:44.4332||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortBy' of type 'System.String' using the name 'SortBy' in request data ... 
+2023-10-23 21:47:44.4345||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name 'SortBy' for binding property 'RestaurantAPI.Models.RestaurantQuery.SortBy' of type 'System.String'. 
+2023-10-23 21:47:44.4345||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortBy' of type 'System.String'. 
+2023-10-23 21:47:44.4345||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortDirection' of type 'RestaurantAPI.Models.SortDirection' using the name 'SortDirection' in request data ... 
+2023-10-23 21:47:44.4345||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'RestaurantAPI.Models.RestaurantQuery.SortDirection' of type 'RestaurantAPI.Models.SortDirection'. 
+2023-10-23 21:47:44.4345||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Done attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery'. 
+2023-10-23 21:47:44.4345||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery'. 
+2023-10-23 21:47:44.4345||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery' ... 
+2023-10-23 21:47:44.4386||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'query' of type 'RestaurantAPI.Models.RestaurantQuery'. 
+2023-10-23 21:47:44.4386||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:44.4386||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:44.4386||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:47:44.4386||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:47:44.4386||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) - Validation state: Valid 
+2023-10-23 21:47:44.4386||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) with arguments (RestaurantAPI.Models.RestaurantQuery) 
+2023-10-23 21:47:44.5151||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.11 initialized 'RestaurantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None 
+2023-10-23 21:47:44.5210||DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Restaurant>()
+    .Include(r => r.Address)
+    .Include(r => r.Dishes)
+    .Where(r => False || r.Name.ToLower().Contains(__ToLower_0) || r.Description.ToLower().Contains(__ToLower_0))
+    .Skip(__p_1)
+    .Take(__p_2)' 
+2023-10-23 21:47:44.5255||DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'Restaurant.Address'. 
+2023-10-23 21:47:44.5255||DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'Restaurant.Dishes'. 
+2023-10-23 21:47:44.5386||WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased. 
+2023-10-23 21:47:44.5393||WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased. 
+2023-10-23 21:47:44.5703||DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Restaurant>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Restaurant.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Restaurant.AddressId (int) Required FK Index, 1], [Property: Restaurant.Category (string), 2], [Property: Restaurant.ContactEmail (string), 3], [Property: Restaurant.ContactNumber (string), 4], [Property: Restaurant.CreatedById (int?) FK Index, 5], [Property: Restaurant.Description (string), 6], [Property: Restaurant.HasDelivery (bool) Required, 7], [Property: Restaurant.Name (string) Required MaxLength(25), 8] }
+            1 -> Dictionary<IProperty, int> { [Property: Address.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 9], [Property: Address.City (string) Required MaxLength(50), 10], [Property: Address.PostalCode (string), 11], [Property: Address.Street (string) Required MaxLength(50), 12] }
+            2 -> 0
+            3 -> 9
+            4 -> Dictionary<IProperty, int> { [Property: Dish.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 13], [Property: Dish.Description (string), 14], [Property: Dish.Name (string) Required, 15], [Property: Dish.Price (decimal) Required, 16], [Property: Dish.RestaurantId (int) Required FK Index, 17] }
+            5 -> 13
+        SELECT t.Id, t.AddressId, t.Category, t.ContactEmail, t.ContactNumber, t.CreatedById, t.Description, t.HasDelivery, t.Name, a.Id, a.City, a.PostalCode, a.Street, d.Id, d.Description, d.Name, d.Price, d.RestaurantId
+        FROM 
+        (
+            SELECT r.Id, r.AddressId, r.Category, r.ContactEmail, r.ContactNumber, r.CreatedById, r.Description, r.HasDelivery, r.Name
+            FROM Restaurants AS r
+            WHERE CAST(0 AS bit) || (((@__ToLower_0 LIKE N'') || (CHARINDEX(@__ToLower_0, LOWER(r.Name)) > 0)) || ((@__ToLower_0 LIKE N'') || (CHARINDEX(@__ToLower_0, LOWER(r.Description)) > 0)))
+            ORDER BY (SELECT 1)
+            OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+        ) AS t
+        INNER JOIN Addresses AS a ON t.AddressId == a.Id
+        LEFT JOIN Dishes AS d ON t.Id == d.RestaurantId
+        ORDER BY t.Id ASC, a.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Restaurant>, 
+    RestaurantAPI.Entities.RestaurantDbContext, 
+    False, 
+    False, 
+    True
+)' 
+2023-10-23 21:47:44.5776||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:47:44.5776||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-23 21:47:44.5776||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-23 21:47:44.5776||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:47:44.5776||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:47:44.5776||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.5776||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.5785||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 25), @__ToLower_0_1='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AddressId], [t].[Category], [t].[ContactEmail], [t].[ContactNumber], [t].[CreatedById], [t].[Description], [t].[HasDelivery], [t].[Name], [a].[Id], [a].[City], [a].[PostalCode], [a].[Street], [d].[Id], [d].[Description], [d].[Name], [d].[Price], [d].[RestaurantId]
+FROM (
+    SELECT [r].[Id], [r].[AddressId], [r].[Category], [r].[ContactEmail], [r].[ContactNumber], [r].[CreatedById], [r].[Description], [r].[HasDelivery], [r].[Name]
+    FROM [Restaurants] AS [r]
+    WHERE (@__ToLower_0 LIKE N'') OR CHARINDEX(@__ToLower_0, LOWER([r].[Name])) > 0 OR (@__ToLower_0_1 LIKE N'') OR CHARINDEX(@__ToLower_0_1, LOWER([r].[Description])) > 0
+    ORDER BY (SELECT 1)
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t]
+INNER JOIN [Addresses] AS [a] ON [t].[AddressId] = [a].[Id]
+LEFT JOIN [Dishes] AS [d] ON [t].[Id] = [d].[RestaurantId]
+ORDER BY [t].[Id], [a].[Id] 
+2023-10-23 21:47:44.6002||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__ToLower_0='?' (Size = 25), @__ToLower_0_1='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AddressId], [t].[Category], [t].[ContactEmail], [t].[ContactNumber], [t].[CreatedById], [t].[Description], [t].[HasDelivery], [t].[Name], [a].[Id], [a].[City], [a].[PostalCode], [a].[Street], [d].[Id], [d].[Description], [d].[Name], [d].[Price], [d].[RestaurantId]
+FROM (
+    SELECT [r].[Id], [r].[AddressId], [r].[Category], [r].[ContactEmail], [r].[ContactNumber], [r].[CreatedById], [r].[Description], [r].[HasDelivery], [r].[Name]
+    FROM [Restaurants] AS [r]
+    WHERE (@__ToLower_0 LIKE N'') OR CHARINDEX(@__ToLower_0, LOWER([r].[Name])) > 0 OR (@__ToLower_0_1 LIKE N'') OR CHARINDEX(@__ToLower_0_1, LOWER([r].[Description])) > 0
+    ORDER BY (SELECT 1)
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t]
+INNER JOIN [Addresses] AS [a] ON [t].[AddressId] = [a].[Id]
+LEFT JOIN [Dishes] AS [d] ON [t].[Id] = [d].[RestaurantId]
+ORDER BY [t].[Id], [a].[Id] 
+2023-10-23 21:47:44.6002||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Restaurant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:47:44.6029||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Restaurant.Address' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:47:44.6029||DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'RestaurantDbContext' started tracking 'Address' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-23 21:47:44.6040||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.6040||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 3ms reading results. 
+2023-10-23 21:47:44.6042||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.6042||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:47:44.6076||DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Restaurant>()
+    .Include(r => r.Address)
+    .Include(r => r.Dishes)
+    .Where(r => False || r.Name.ToLower().Contains(__ToLower_0) || r.Description.ToLower().Contains(__ToLower_0))
+    .Count()' 
+2023-10-23 21:47:44.6365||DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Restaurants AS r
+        WHERE CAST(0 AS bit) || (((@__ToLower_0 LIKE N'') || (CHARINDEX(@__ToLower_0, LOWER(r.Name)) > 0)) || ((@__ToLower_0 LIKE N'') || (CHARINDEX(@__ToLower_0, LOWER(r.Description)) > 0)))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    RestaurantAPI.Entities.RestaurantDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-10-23 21:47:44.6397||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-23 21:47:44.6397||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:47:44.6397||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-23 21:47:44.6397||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.6397||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.6397||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 25), @__ToLower_0_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Restaurants] AS [r]
+WHERE (@__ToLower_0 LIKE N'') OR CHARINDEX(@__ToLower_0, LOWER([r].[Name])) > 0 OR (@__ToLower_0_1 LIKE N'') OR CHARINDEX(@__ToLower_0_1, LOWER([r].[Description])) > 0 
+2023-10-23 21:47:44.6472||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@__ToLower_0='?' (Size = 25), @__ToLower_0_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Restaurants] AS [r]
+WHERE (@__ToLower_0 LIKE N'') OR CHARINDEX(@__ToLower_0, LOWER([r].[Name])) > 0 OR (@__ToLower_0_1 LIKE N'') OR CHARINDEX(@__ToLower_0_1, LOWER([r].[Description])) > 0 
+2023-10-23 21:47:44.6472||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.6472||DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'RestaurantDb' on server 'localhost' is being disposed after spending 0ms reading results. 
+2023-10-23 21:47:44.6472||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.6472||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'RestaurantDb' on server 'localhost' (0ms). 
+2023-10-23 21:47:44.6660||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 226.8651ms. 
+2023-10-23 21:47:44.6660||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:47:44.6662||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-23 21:47:44.6662||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:44.6662||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-23 21:47:44.6662||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:44.6662||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:44.6662||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-10-23 21:47:44.6662||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-10-23 21:47:44.6678||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2023-10-23 21:47:44.6682||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2023-10-23 21:47:44.6682||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-10-23 21:47:44.6682||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-10-23 21:47:44.6682||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-10-23 21:47:44.6682||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'RestaurantAPI.Models.PagedResult`1[[RestaurantAPI.Models.RestaurantDto, RestaurantAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-10-23 21:47:44.6822||DEBUG|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|Response is not cacheable because it does not contain the 'public' cache directive. 
+2023-10-23 21:47:44.6822||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-10-23 21:47:44.6822||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending HEADERS frame for stream ID 37 with length 66 and flags END_HEADERS. 
+2023-10-23 21:47:44.6822||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:44.6822||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 37 with length 379 and flags NONE. 
+2023-10-23 21:47:44.6822||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-23 21:47:44.6822||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) in 251.4999ms 
+2023-10-23 21:47:44.6822||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2023-10-23 21:47:44.6822||INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request. 
+2023-10-23 21:47:44.6822||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending DATA frame for stream ID 37 with length 0 and flags END_STREAM. 
+2023-10-23 21:47:44.6822||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'RestaurantDbContext' disposed. 
+2023-10-23 21:47:44.6822||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'RestaurantDb' on server 'localhost'. 
+2023-10-23 21:47:44.6833||DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2023-10-23 21:47:44.6833||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/restaurant?SearchPhrase=kfc&PageNumber=1&PageSize=10&SortDirection=0 - - - 200 - application/json;+charset=utf-8 255.7860ms 
+2023-10-23 21:48:03.5790||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2023-10-23 21:48:03.5814||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2023-10-23 21:48:03.6011||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" is closing. 
+2023-10-23 21:48:03.6013||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" is closed. The last processed stream ID was 37. 
+2023-10-23 21:48:03.6013||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUK02KOV276" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2023-10-23 21:48:03.6013||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUK02KOV276" received FIN. 
+2023-10-23 21:48:03.6023||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUK02KOV276" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-10-23 21:48:03.6067||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMUK02KOV276 completed. 
+2023-10-23 21:48:03.6094||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUK02KOV276" stopped. 
+2023-10-23 21:48:03.6126||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
