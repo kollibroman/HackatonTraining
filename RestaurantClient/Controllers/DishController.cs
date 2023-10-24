@@ -2,21 +2,22 @@ using DefaultNamespace;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestaurantClient.Interfaces;
-using RestaurantClient.Models;
 
 namespace RestaurantClient.Controllers;
 
+[Route("restaurant/{restaurantId}/dish")]
 public class DishController : Controller
 {
-    private readonly IDishService _service;
+    private readonly IDishService _dish;
+
     public DishController(IDishService service)
     {
-        _service = service;
+        _dish = service;
     }
     // GET
     public async Task<IActionResult> Index()
-    {
-        var msg = await _service.GetDishes();
+    { 
+        var msg = await _dish.GetDishes();
 
         if (!msg.IsSuccessStatusCode)
         {
@@ -25,5 +26,41 @@ public class DishController : Controller
 
         var content = JsonConvert.DeserializeObject<Dish>(await msg.Content.ReadAsStringAsync());
         return View(content);
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> Details([FromRoute]int restaurantId, [FromRoute]int id)
+    {
+        var msg = await _dish.GetDish(restaurantId,id);
+        if (!msg.IsSuccessStatusCode)
+        {
+            return NotFound();
+        }
+        
+        return View(JsonConvert.DeserializeObject<Dish>(await msg.Content.ReadAsStringAsync()));
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Add([FromRoute] int restaurantId, [FromBody] CreateDish dto)
+    {
+        var msg = await _dish.AddDish(restaurantId, dto);
+        if (!msg.IsSuccessStatusCode)
+        {
+            return BadRequest();
+        }
+
+        return RedirectToAction("Index");
+    }
+    
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete([FromRoute]int id)
+    {
+        var msg = await _dish.DeleteDish(id);
+        if (!msg.IsSuccessStatusCode)
+        {
+            return RedirectToAction("Index");
+        }
+        
+        return RedirectToAction("Index");
     }
 }

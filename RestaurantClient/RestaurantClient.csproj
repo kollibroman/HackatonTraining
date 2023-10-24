@@ -10,4 +10,8 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Dish\Index.cshtml" />
+  </ItemGroup>
+
 </Project>
