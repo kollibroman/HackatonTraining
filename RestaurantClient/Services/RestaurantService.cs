@@ -1,29 +1,60 @@
 using System;
 using DefaultNamespace;
+using Newtonsoft.Json;
 using RestaurantClient.Interfaces;
+using System.Net.Http;
+using System.Text;
 
 namespace RestaurantClient.Services
 {
     public class RestaurantService : IRestaurantService
     {
-        public Task<HttpResponseMessage> GetRestaurants()
+        private readonly IHttpClientFactory _client;
+
+        public RestaurantService(IHttpClientFactory client)
         {
-            throw new NotImplementedException();
+            _client = client;
+        }
+        public async Task<HttpResponseMessage> GetRestaurants()
+        {
+            var client = _client.CreateClient("RestaurantAPI");
+            
+            var response = await client.GetAsync(client.BaseAddress + "api/restaurant");
+
+            return response;
         }
 
-        public Task<HttpResponseMessage> GetRestaurant(int id)
+        public async Task<HttpResponseMessage> GetRestaurant(int id)
         {
-            throw new NotImplementedException();
+            var client = _client.CreateClient("RestaurantAPI");
+            
+            var response = await client.GetAsync(client.BaseAddress + $"api/restaurant/{id}");
+
+            return response;
         }
 
-        public Task<HttpResponseMessage> AddRestaurant(CreateRestaurant dto)
+        public async Task<HttpResponseMessage> AddRestaurant(CreateRestaurant dto)
         {
-            throw new NotImplementedException();
+            var client = _client.CreateClient("RestaurantAPI");
+            var serializedDto = JsonConvert.SerializeObject(dto);
+            var message = new HttpRequestMessage(HttpMethod.Post, new Uri(client.BaseAddress + $"api/restaurant/"));
+            message.Content = new StringContent(serializedDto, Encoding.UTF8);
+            
+            var response = await client.SendAsync(message);
+
+            return response;
         }
 
-        public Task<HttpResponseMessage> UpdateRestaurant(UpdateRestaurant dto)
+        public async Task<HttpResponseMessage> UpdateRestaurant(UpdateRestaurant dto)
         {
-            throw new NotImplementedException();
+            var client = _client.CreateClient("RestaurantAPI");
+            var serializedDto = JsonConvert.SerializeObject(dto);
+            var message = new HttpRequestMessage(HttpMethod.Put, new Uri(client.BaseAddress + $"api/restaurant/"));
+            message.Content = new StringContent(serializedDto, Encoding.UTF8);
+            
+            var response = await client.SendAsync(message);
+
+            return response;
         }
 
         public Task<HttpResponseMessage> DeleteRestaurant(int id)

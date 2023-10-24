@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9gu80+3s6YMyOLbsmyD6HiQLhE/+7T2oFy3cS1XHe7b+cFOSAB+y4wIsuc1vdC+aWh1C9i6x3BAEErU2UfbGvA==",
+  "dgSpecHash": "zwAnIshdxwVW3uXZEEOnZodlbp9TTa8nZ/UzKs0oltoGw+lJxtcXYf93oy8O10oz/f1Qvyev3WCL82FtBWaK9g==",
   "success": true,
   "projectFilePath": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/RestaurantClient.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/kollibroman/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
