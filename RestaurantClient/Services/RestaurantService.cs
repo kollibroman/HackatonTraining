@@ -57,9 +57,12 @@ namespace RestaurantClient.Services
             return response;
         }
 
-        public Task<HttpResponseMessage> DeleteRestaurant(int id)
+        public async Task<HttpResponseMessage> DeleteRestaurant(int id)
         {
-            throw new NotImplementedException();
+            var client = _client.CreateClient("RestaurantAPI");
+            var response = await client.DeleteAsync(client.BaseAddress + $"api/restaurant/{id}");
+
+            return response;
         }
     }
 }

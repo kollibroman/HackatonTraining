@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Dish/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzaC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Restaurant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Shared/Error.cshtml]

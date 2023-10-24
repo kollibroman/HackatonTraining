@@ -1,29 +1,55 @@
 using System;
+using System.Text;
 using DefaultNamespace;
+using Newtonsoft.Json;
 using RestaurantClient.Interfaces;
 
 namespace RestaurantClient.Services
 {
     public class DishService : IDishService
     {
-        public Task<HttpResponseMessage> GetDishes()
+        private readonly IHttpClientFactory _client;
+
+        public DishService(IHttpClientFactory client)
         {
-            throw new NotImplementedException();
+            _client = client;
+        }
+        public async Task<HttpResponseMessage> GetDishes()
+        {
+            var client = _client.CreateClient("RestaurantAPI");
+            
+            var response = await client.GetAsync(client.BaseAddress + "api/dish");
+
+            return response;
         }
 
-        public Task<HttpResponseMessage> GetDish(int restaurantId, int dishId)
+        public async Task<HttpResponseMessage> GetDish(int restaurantId, int dishId)
         {
-            throw new NotImplementedException();
+            var client = _client.CreateClient("RestaurantAPI");
+            
+            var response = await client.GetAsync(client.BaseAddress + $"api/restaurant/{restaurantId}/dish/{dishId}");
+
+            return response;
         }
 
-        public Task<HttpResponseMessage> AddDish(CreateDish dto)
+        public async Task<HttpResponseMessage> AddDish(int restaurantId, CreateDish dto)
         {
-            throw new NotImplementedException();
+            var client = _client.CreateClient("RestaurantAPI");
+            var serializedDto = JsonConvert.SerializeObject(dto);
+            var message = new HttpRequestMessage(HttpMethod.Post, new Uri(client.BaseAddress + $"api/restaurant/{restaurantId}/dish/"));
+            message.Content = new StringContent(serializedDto, Encoding.UTF8);
+            
+            var response = await client.SendAsync(message);
+
+            return response;
         }
 
-        public Task<HttpResponseMessage> DeleteDish(int id)
+        public async Task<HttpResponseMessage> DeleteDish(int id)
         {
-            throw new NotImplementedException();
+            var client = _client.CreateClient("RestaurantAPI");
+            var response = await client.DeleteAsync(client.BaseAddress + $"api/restaurant/{id}");
+
+            return response;
         }
     }
 }

@@ -1,4 +1,6 @@
 using System.Net.Http.Headers;
+using RestaurantClient.Interfaces;
+using RestaurantClient.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,8 @@ builder.Services.AddHttpClient("RestaurantAPI",
             new MediaTypeWithQualityHeaderValue(
                 "application/json", 1.0));
     });
+builder.Services.AddScoped<IDishService, DishService>();
+builder.Services.AddScoped<IRestaurantService, RestaurantService>();
 
 var app = builder.Build();
 

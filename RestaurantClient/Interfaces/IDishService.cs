@@ -7,7 +7,7 @@ namespace RestaurantClient.Interfaces
     {
         Task<HttpResponseMessage> GetDishes();
         Task<HttpResponseMessage> GetDish(int restaurantId, int dishId);
-        Task<HttpResponseMessage> AddDish(CreateDish dto);
+        Task<HttpResponseMessage> AddDish(int restaurantId, CreateDish dto);
         Task<HttpResponseMessage> DeleteDish(int id);
     }
 }
