@@ -40,3 +40,10 @@
 2023-10-23 21:45:45.7575 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=58, FilePath=/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/RestaurantAPI/bin/Debug/net7.0/nlog.config
 2023-10-23 21:45:45.7733 Info Configuration initialized.
 2023-10-23 21:45:45.7733 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=58, FilePath=/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/RestaurantAPI/bin/Debug/net7.0/nlog.config
+2023-10-24 11:32:43.3795 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-10-24 11:32:43.4058 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-10-24 11:32:43.4067 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-10-24 11:32:43.4326 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-24 11:32:43.4526 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=58, FilePath=/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/bin/Debug/net7.0/nlog.config
+2023-10-24 11:32:43.4771 Info Configuration initialized.
+2023-10-24 11:32:43.4780 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=58, FilePath=/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/bin/Debug/net7.0/nlog.config

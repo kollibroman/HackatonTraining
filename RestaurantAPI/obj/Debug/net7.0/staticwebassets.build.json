@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d+xBlLEsJd9KUwilN0nZGbRLaaZ8F0FwxXisZsBnsHc=",
+  "Hash": "Skp8DPLZQ0Mqh6TYCQdJXqWgJ3KFZGI+LoIkN7984hc=",
   "Source": "RestaurantAPI",
   "BasePath": "_content/RestaurantAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RestaurantAPI/wwwroot",
       "Source": "RestaurantAPI",
-      "ContentRoot": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/RestaurantAPI/wwwroot/",
+      "ContentRoot": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/wwwroot/",
       "BasePath": "_content/RestaurantAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/RestaurantAPI/wwwroot/sample-file.txt",
+      "Identity": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/wwwroot/sample-file.txt",
       "SourceId": "RestaurantAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/RestaurantAPI/wwwroot/",
+      "ContentRoot": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/wwwroot/",
       "BasePath": "_content/RestaurantAPI",
       "RelativePath": "sample-file.txt",
       "AssetKind": "All",
