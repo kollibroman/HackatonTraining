@@ -1,10 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "pYdLp4vSL5049iFnW7iW0h7wIrRaDK0IWYBmtjV+EajW8j4BKyTwVg8vp3Igg6kLtfA2GUSm8WVN7fYx+ON2XQ==",
+  "dgSpecHash": "aUES7PV2MYGOcObhQ1b6DFSmXN2Sipr4YVdolIUu3FDNJpNx4RTAu88/Jb79eqcpv5zVKZF0WA9iPcUFNjGyvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\RestaurantClient.csproj",
+  "projectFilePath": "C:\\Users\\Filip Kwiek\\HackatonTraining\\RestaurantClient\\RestaurantClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\7.0.13\\microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.13.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.0\\microsoft.codeanalysis.common.4.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.0.0\\microsoft.codeanalysis.csharp.4.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.0\\microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\westwind.aspnetcore.livereload\\0.4.2\\westwind.aspnetcore.livereload.0.4.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RestaurantClient
 build_property.RootNamespace = RestaurantClient
-build_property.ProjectDir = C:\Users\Admin\OneDrive - WK sp. z o.o\Pulpit\test\HackatonTraining\RestaurantClient\
+build_property.ProjectDir = C:\Users\Filip Kwiek\HackatonTraining\RestaurantClient\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\OneDrive - WK sp. z o.o\Pulpit\test\HackatonTraining\RestaurantClient
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Filip Kwiek\HackatonTraining\RestaurantClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Dish/Add.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Dish/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Dish/Details.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Dish/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Dish/Index.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Dish/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Home/Index.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Home/Privacy.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Add.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Restaurant/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Details.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Restaurant/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Edit.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Restaurant/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Index.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Restaurant/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Shared/Error.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/_ViewImports.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/_ViewStart.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Shared/_Layout.cshtml]
+[C:/Users/Filip Kwiek/HackatonTraining/RestaurantClient/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-aqavnqfqnf

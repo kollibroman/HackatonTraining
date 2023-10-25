@@ -3985,19 +3985,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Filip Kwiek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantAPI\\RestaurantAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Filip Kwiek\\HackatonTraining\\RestaurantAPI\\RestaurantAPI.csproj",
       "projectName": "RestaurantAPI",
-      "projectPath": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantAPI\\RestaurantAPI.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantAPI\\obj\\",
+      "projectPath": "C:\\Users\\Filip Kwiek\\HackatonTraining\\RestaurantAPI\\RestaurantAPI.csproj",
+      "packagesPath": "C:\\Users\\Filip Kwiek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Filip Kwiek\\HackatonTraining\\RestaurantAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Filip Kwiek\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
