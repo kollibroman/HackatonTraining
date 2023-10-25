@@ -26,7 +26,7 @@ public class RestaurantController : Controller
         return View(JsonConvert.DeserializeObject<List<Restaurant>>(await msg.Content.ReadAsStringAsync()));
     }
 
-    [HttpGet("{id}")]
+    //[HttpGet("{id}")]
     public async Task<IActionResult> Details(int Id)
     {
         var msg = await _restaurantService.GetRestaurant(Id);
