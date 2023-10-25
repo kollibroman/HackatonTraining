@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/RestaurantClient.csproj": {}
+    "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\RestaurantClient.csproj": {}
   },
   "projects": {
-    "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/RestaurantClient.csproj": {
+    "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\RestaurantClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/RestaurantClient.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\RestaurantClient.csproj",
         "projectName": "RestaurantClient",
-        "projectPath": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/RestaurantClient.csproj",
-        "packagesPath": "/home/kollibroman/.nuget/packages/",
-        "outputPath": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/obj/",
+        "projectPath": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\RestaurantClient.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

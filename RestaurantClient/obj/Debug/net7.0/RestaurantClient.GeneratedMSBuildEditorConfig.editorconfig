@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RestaurantClient
 build_property.RootNamespace = RestaurantClient
-build_property.ProjectDir = /home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/
+build_property.ProjectDir = C:\Users\Admin\OneDrive - WK sp. z o.o\Pulpit\test\HackatonTraining\RestaurantClient\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient
+build_property.MSBuildProjectDirectory = C:\Users\Admin\OneDrive - WK sp. z o.o\Pulpit\test\HackatonTraining\RestaurantClient
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Dish/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzaC9BZGQuY3NodG1s
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Dish/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Dish/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzaC9EZXRhaWxzLmNzaHRtbA==
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Dish/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Dish/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzaC9JbmRleC5jc2h0bWw=
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Dish/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Restaurant/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9BZGQuY3NodG1s
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Restaurant/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9EZXRhaWxzLmNzaHRtbA==
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Restaurant/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9FZGl0LmNzaHRtbA==
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Restaurant/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9JbmRleC5jc2h0bWw=
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Restaurant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantClient/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-2cif66ukzt
+[C:/Users/Admin/OneDrive - WK sp. z o.o/Pulpit/test/HackatonTraining/RestaurantClient/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-aqavnqfqnf

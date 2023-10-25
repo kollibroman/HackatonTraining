@@ -23,7 +23,7 @@ public class RestaurantController : Controller
             return NotFound();
         }
         
-        return View(JsonConvert.DeserializeObject<IList<Restaurant>>(await msg.Content.ReadAsStringAsync()));
+        return View(JsonConvert.DeserializeObject<List<Restaurant>>(await msg.Content.ReadAsStringAsync()));
     }
 
     [HttpGet("{id}")]

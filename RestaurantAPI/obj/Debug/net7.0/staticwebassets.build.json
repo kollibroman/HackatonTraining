@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Skp8DPLZQ0Mqh6TYCQdJXqWgJ3KFZGI+LoIkN7984hc=",
+  "Hash": "f8w7LI9jOrYpvw3xAwCoYmLa5ZkpkDq8HtseFwM/4kU=",
   "Source": "RestaurantAPI",
   "BasePath": "_content/RestaurantAPI",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "RestaurantAPI/wwwroot",
+      "Name": "RestaurantAPI\\wwwroot",
       "Source": "RestaurantAPI",
-      "ContentRoot": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/wwwroot/",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantAPI\\wwwroot\\",
       "BasePath": "_content/RestaurantAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/wwwroot/sample-file.txt",
+      "Identity": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantAPI\\wwwroot\\sample-file.txt",
       "SourceId": "RestaurantAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/kollibroman/LosoweProjekty/HackatonTraining/RestaurantAPI/wwwroot/",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantAPI\\wwwroot\\",
       "BasePath": "_content/RestaurantAPI",
       "RelativePath": "sample-file.txt",
       "AssetKind": "All",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-file.txt"
+      "OriginalItemSpec": "wwwroot\\sample-file.txt"
     }
   ]
 }

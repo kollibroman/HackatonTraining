@@ -24,7 +24,7 @@ public class DishController : Controller
             return NotFound();
         }
 
-        var content = JsonConvert.DeserializeObject<Dish>(await msg.Content.ReadAsStringAsync());
+        var content = JsonConvert.DeserializeObject<List<Dish>>(await msg.Content.ReadAsStringAsync());
         return View(content);
     }
 
