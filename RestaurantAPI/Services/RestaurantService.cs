@@ -23,6 +23,7 @@ namespace RestaurantAPI.Services
         int Create(CreateRestaurantDto dto);
         void Delete(int id);
         void Update(int id, UpdateRestaurantDto dto);
+        Task<List<RestaurantDto> GetRestaurants();
     }
 
     public class RestaurantService : IRestaurantService
@@ -160,6 +161,14 @@ namespace RestaurantAPI.Services
             return result;
         }
 
-
+        public async Task<List<RestaurantDto>> GetRestaurants()
+        {
+            var baseQuery = await _dbContext
+                .Restaurants
+                .Include(r => r.Address)
+                .Include(r => r.Dishes).ToListASync();
+            
+            return baseQuery;
+        }
     }
 }

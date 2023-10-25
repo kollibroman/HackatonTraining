@@ -37,9 +37,9 @@ namespace RestaurantAPI.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        public ActionResult<IEnumerable<RestaurantDto>> GetAll([FromQuery]RestaurantQuery query)
+        public async Task<IActionResult> GetAll()
         {
-            var restaurantsDtos = _restaurantService.GetAll(query);
+            var restaurantsDtos = await _restaurantService.GetRestaurants();
 
             return Ok(restaurantsDtos);
         }
