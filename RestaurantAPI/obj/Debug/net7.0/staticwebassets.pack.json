@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantAPI\\wwwroot\\sample-file.txt",
+      "PackagePath": "staticwebassets\\sample-file.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RestaurantAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RestaurantAPI.props",
+      "PackagePath": "build\\RestaurantAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RestaurantAPI.props",
+      "PackagePath": "buildMultiTargeting\\RestaurantAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RestaurantAPI.props",
+      "PackagePath": "buildTransitive\\RestaurantAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

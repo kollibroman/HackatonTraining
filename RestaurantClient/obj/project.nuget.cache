@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pYdLp4vSL5049iFnW7iW0h7wIrRaDK0IWYBmtjV+EajW8j4BKyTwVg8vp3Igg6kLtfA2GUSm8WVN7fYx+ON2XQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\RestaurantClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
