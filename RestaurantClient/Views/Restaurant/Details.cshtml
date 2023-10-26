@@ -1,7 +1,8 @@
+@using DefaultNamespace
 @model DefaultNamespace.Restaurant
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = @Html.DisplayFor(model=>model.Name);
     Layout = "_Layout";
 }
 
@@ -16,8 +17,9 @@
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
-                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                <a asp-controller="Dish" asp-action="Details" asp-route-restaurantId="@Model.Id" asp-route-id="@item.Id">Test</a>
+                @Html.ActionLink("Details", "DishDetail", new { RestaurantId = Model.Id, id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { RestaurantId = Model.Id, id = item.Id })
             </td>
         </tr>
     }

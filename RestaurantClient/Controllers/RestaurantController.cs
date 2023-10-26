@@ -8,10 +8,12 @@ namespace RestaurantClient.Controllers;
 public class RestaurantController : Controller
 {
     private readonly IRestaurantService _restaurantService;
+    private readonly IDishService _dishService;
 
-    public RestaurantController(IRestaurantService restaurantService)
+    public RestaurantController(IRestaurantService restaurantService, IDishService dishService)
     {
         _restaurantService = restaurantService;
+        _dishService = dishService;
     }
     // GET
     public async Task<IActionResult> Index()
@@ -26,6 +28,17 @@ public class RestaurantController : Controller
         return View(JsonConvert.DeserializeObject<List<Restaurant>>(await msg.Content.ReadAsStringAsync()));
     }
 
+    public async Task<IActionResult> DishDetail(int RestaurantId, int id)
+    {
+        var msg = await _dishService.GetDish(RestaurantId, id);
+
+        if (!msg.IsSuccessStatusCode)
+        {
+            return NotFound();
+        }
+
+        return View(JsonConvert.DeserializeObject<Dish>(await msg.Content.ReadAsStringAsync()));
+    }
     //[HttpGet("{id}")]
     public async Task<IActionResult> Details(int Id)
     {
@@ -38,9 +51,15 @@ public class RestaurantController : Controller
         return View(JsonConvert.DeserializeObject<Restaurant>(await msg.Content.ReadAsStringAsync()));
     }
 
+    public async Task<IActionResult> Add()
+    {
+        return View();
+    }
+    
     [HttpPost]
     public async Task<IActionResult> Add([FromBody]CreateRestaurant dto)
     {
+
         var msg = await _restaurantService.AddRestaurant(dto);
         if (!msg.IsSuccessStatusCode)
         {

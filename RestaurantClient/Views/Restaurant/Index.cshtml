@@ -1,24 +1,44 @@
-@model List<DefaultNamespace.Restaurant>
+@using DefaultNamespace
+@using RestaurantClient.Controllers
+@model List<Restaurant>
+@*@model dynamic*@
 
 @{
     ViewData["Title"] = "Restaurant";
     Layout = "_Layout";
+    
 }
-    <h1 class="display-3 fw-bold text-md-center ">Restauracje</h1><br/>
-<table class="table">
-    @foreach (var item in Model) {
-        <tr>
+<head>
+    <title>Restaurants</title>
+    <link rel="stylesheet" type="text/css" href="css/restaurant_index.css">
+</head>
+<input type="text" id="searchInput" placeholder="Search...">
+<button id="sortByName" onclick="sortByName()">Sort by Name</button>
+<button id="sortByLocation" onclick="sortByCity()">Sort by City</button>
+<table class="dataTable" >
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>City</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody id="restaurant_data">
+    @foreach (var restaurant in Model)
+    {
+        <tr data-name="@restaurant.Name"  data-city="@restaurant.City">
+            <td class="name" >@restaurant.Name</td>
+            <td>@restaurant.Description</td>
+            <td class="city">@restaurant.City</td>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
+                <button class="detail-button" onclick="location.href='@Url.Action("Details", "Restaurant", new { id = restaurant.Id })'">Details</button>
+                <button class="delete-button" onclick="location.href='@Url.Action("Delete", "Restaurant", new { id = restaurant.Id })'">Delete</button>
             </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
         </tr>
     }
-
+    </tbody>
 </table>
+<br/><br/>
+@Html.ActionLink("Add restaurant", "Add", "Restaurant")
+<script src="js/restaurant_index.js"></script>

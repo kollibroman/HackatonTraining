@@ -14,22 +14,22 @@ public class DishController : Controller
     {
         _dish = service;
     }
-    // GET
-    public async Task<IActionResult> Index()
-    { 
-        var msg = await _dish.GetDishes();
-
-        if (!msg.IsSuccessStatusCode)
-        {
-            return NotFound();
-        }
-
-        var content = JsonConvert.DeserializeObject<List<Dish>>(await msg.Content.ReadAsStringAsync());
-        return View(content);
-    }
+     //GET
+     public async Task<IActionResult> Index()
+     { 
+         var msg = await _dish.GetDishes();
+    
+         if (!msg.IsSuccessStatusCode)
+         {
+             return NotFound();
+         }
+    
+         var content = JsonConvert.DeserializeObject<List<Dish>>(await msg.Content.ReadAsStringAsync());
+         return View(content);
+     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> Details([FromRoute]int restaurantId, [FromRoute]int id)
+    public async Task<IActionResult> Details(int restaurantId, int id)
     {
         var msg = await _dish.GetDish(restaurantId,id);
         if (!msg.IsSuccessStatusCode)
