@@ -1,4 +1,3 @@
-using AspNetCoreHero.ToastNotification.Abstractions;
 using DefaultNamespace;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -9,49 +8,65 @@ namespace RestaurantClient.Controllers;
 public class RestaurantController : Controller
 {
     private readonly IRestaurantService _restaurantService;
-    private readonly INotyfService _notyf;
+    private readonly IDishService _dishService;
 
-    public RestaurantController(IRestaurantService restaurantService, INotyfService notyf)
+    public RestaurantController(IRestaurantService restaurantService, IDishService dishService)
     {
         _restaurantService = restaurantService;
-        _notyf = notyf;
+        _dishService = dishService;
     }
     // GET
     public async Task<IActionResult> Index()
     {
         var msg = await _restaurantService.GetRestaurants();
 
-        if (msg.IsSuccessStatusCode)
+        if (!msg.IsSuccessStatusCode)
         {
-            return View(JsonConvert.DeserializeObject<List<Restaurant>>(await msg.Content.ReadAsStringAsync()));
+            return NotFound();
         }
-        return NotFound();
+        
+        return View(JsonConvert.DeserializeObject<List<Restaurant>>(await msg.Content.ReadAsStringAsync()));
     }
 
-    [HttpGet("{id}")]
+    public async Task<IActionResult> DishDetail(int RestaurantId, int id)
+    {
+        var msg = await _dishService.GetDish(RestaurantId, id);
+
+        if (!msg.IsSuccessStatusCode)
+        {
+            return NotFound();
+        }
+
+        return View(JsonConvert.DeserializeObject<Dish>(await msg.Content.ReadAsStringAsync()));
+    }
+    //[HttpGet("{id}")]
     public async Task<IActionResult> Details(int Id)
     {
         var msg = await _restaurantService.GetRestaurant(Id);
-        
-        if (msg.IsSuccessStatusCode)
+        if (!msg.IsSuccessStatusCode)
         {
-            return View(JsonConvert.DeserializeObject<Restaurant>(await msg.Content.ReadAsStringAsync()));
+            return NotFound();
         }
         
-        return NotFound();
+        return View(JsonConvert.DeserializeObject<Restaurant>(await msg.Content.ReadAsStringAsync()));
     }
 
+    public async Task<IActionResult> Add()
+    {
+        return View();
+    }
+    
     [HttpPost]
     public async Task<IActionResult> Add([FromBody]CreateRestaurant dto)
     {
+
         var msg = await _restaurantService.AddRestaurant(dto);
-        if (msg.IsSuccessStatusCode)
+        if (!msg.IsSuccessStatusCode)
         {
-            _notyf.Success("Created Restaurant!");
-            return RedirectToAction("Index");
+            return BadRequest();
         }
-        _notyf.Error("Failed to create restaurant");
-        return BadRequest();
+
+        return RedirectToAction("Index");
     }
 
     [HttpDelete]
@@ -63,7 +78,6 @@ public class RestaurantController : Controller
             return RedirectToAction("Index");
         }
         
-        _notyf.Success("Successfully deleted restaurant!");
         return RedirectToAction("Index");
     }
 }

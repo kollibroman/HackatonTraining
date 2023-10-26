@@ -1,0 +1,72 @@
+﻿@model DefaultNamespace.Dish
+
+@{
+    Layout = "_Layout";
+}
+    <style>
+
+        .container {
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            font-size: 2em;
+        }
+        .form-group {
+            margin-bottom: 25px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #555;
+        }
+        input,
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<h2 class="text-center">@Model.Name</h2>
+<form asp-action="Add" asp-controller="Dish" method="post">
+    <div class="container">
+        <h1>Product Form</h1>
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" asp-for="Name" required>
+        </div>
+        <div class="form-group">
+            <label for="Description">Description:</label>
+            <textarea id="Description" name="Description" asp-for="Description" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="Price">Price:</label>
+            <input type="number" id="Price" name="Price" asp-for="Price" required>
+        </div>
+        <button type="submit">Submit</button>
+    </div>
+</form> 

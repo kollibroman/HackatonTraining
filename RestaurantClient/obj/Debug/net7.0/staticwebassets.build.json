@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LcCNzjRuZr1Fg3TzgXdpxywwYtdXeKK9iuJkmcQqaJc=",
+  "Hash": "JpvRWjK+ZTNEKRdNfUxpA+9qfuMXpI9wyjsF0/EEP80=",
   "Source": "RestaurantClient",
   "BasePath": "_content/RestaurantClient",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RestaurantClient.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\wwwroot\\css\\restaurant_index.css",
+      "SourceId": "RestaurantClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\wwwroot\\",
+      "BasePath": "_content/RestaurantClient",
+      "RelativePath": "css/restaurant_index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\restaurant_index.css"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\wwwroot\\css\\site.css",
       "SourceId": "RestaurantClient",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\wwwroot\\js\\restaurant_index.js",
+      "SourceId": "RestaurantClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\wwwroot\\",
+      "BasePath": "_content/RestaurantClient",
+      "RelativePath": "js/restaurant_index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\restaurant_index.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive - WK sp. z o.o\\Pulpit\\test\\HackatonTraining\\RestaurantClient\\wwwroot\\js\\site.js",

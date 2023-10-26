@@ -1,8 +1,27 @@
+@using DefaultNamespace
 @model DefaultNamespace.Restaurant
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = @Html.DisplayFor(model=>model.Name);
     Layout = "_Layout";
 }
 
-<h2>title</h2>
+<h2>@Html.DisplayFor(model=>model.Name)</h2>
+<table class="table">
+    @foreach (var item in Model.Dishes) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-controller="Dish" asp-action="Details" asp-route-restaurantId="@Model.Id" asp-route-id="@item.Id">Test</a>
+                @Html.ActionLink("Details", "DishDetail", new { RestaurantId = Model.Id, id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { RestaurantId = Model.Id, id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

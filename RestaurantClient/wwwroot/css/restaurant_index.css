@@ -1,0 +1,75 @@
+﻿
+/*Index*/
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+.dataTable td, .dataTable th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.dataTable th {
+    background-color: #f2f2f2;
+}
+.dataTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.detail-button, .delete-button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.detail-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+.delete-button:hover {
+    background-color: #dc3545;
+    color: white;
+}
+.detail-button:active, .delete-button:active {
+    transform: scale(0.95);
+}
+
+.animated-button {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.animated-button:hover {
+    background-color: #27ae60;
+    transform: scale(1.1);
+}
+
+.animated-button:active {
+    background-color: #1e824c;
+    transform: scale(0.9);
+}
+
+/*Add*/
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.control-label {
+    display: inline-block!important;
+    width: 100px!important;
+}
+
+.form-control {
+    width: 250px!important;
+    height: 30px!important;
+}
