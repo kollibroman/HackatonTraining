@@ -50,11 +50,6 @@ public class RestaurantController : Controller
         
         return View(JsonConvert.DeserializeObject<Restaurant>(await msg.Content.ReadAsStringAsync()));
     }
-
-    public async Task<IActionResult> Add()
-    {
-        return View();
-    }
     
     [HttpPost]
     public async Task<IActionResult> Add([FromBody]CreateRestaurant dto)
@@ -66,7 +61,7 @@ public class RestaurantController : Controller
             return BadRequest();
         }
 
-        return RedirectToAction("Index");
+        return View();
     }
 
     [HttpDelete]

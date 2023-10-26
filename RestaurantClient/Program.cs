@@ -36,6 +36,7 @@ builder.Services.AddLiveReload(config =>
 });
 builder.Services.AddScoped<IDishService, DishService>();
 builder.Services.AddScoped<IRestaurantService, RestaurantService>();
+builder.Services.AddScoped<IDataHelper, DataHelper>();
 builder.Services.AddNotyf(config =>
 {
     config.DurationInSeconds = 5;
