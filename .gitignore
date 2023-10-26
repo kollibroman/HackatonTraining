@@ -5,3 +5,6 @@ RestaurantClient/obj/RestaurantClient.csproj.nuget.g.props
 RestaurantClient/obj/RestaurantClient.csproj.nuget.dgspec.json
 RestaurantClient/obj/project.packagespec.json
 RestaurantClient/obj/project.assets.json
+RestaurantClient/obj/Debug/net7.0/RestaurantClient.GeneratedMSBuildEditorConfig.editorconfig
+RestaurantAPI/obj/rider.project.restore.info
+RestaurantAPI/obj/rider.project.model.nuget.info
